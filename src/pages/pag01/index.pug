@@ -1,0 +1,176 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body
+
+		header.wow.up
+			+image('logo.png', 'logo')
+		
+		section.sec1.up
+			.flex
+				+image('img01.png', 'img left')
+				.boxText.right
+					h1 Programa Nacional de Direitos Humanos e a Educação em Direitos Humanos (PNDH)
+					p O PNDH é fruto de ampla participação social, instituído por diferentes governos e fundamentado nos princípios da universalidade, indivisibilidade e interdependência dos Direitos Humanos. Sua primeira versão, PNDH-1, criada em 1996, refletiu as demandas sociais do período pós-ditadura, focando nos direitos civis e políticos. O PNDH-2, de 2002, ampliou o escopo para incluir direitos econômicos, sociais e culturais. Já o PNDH-3, de 2009, destacou a transversalidade de suas diretrizes (Brasil, 2009: 16).
+		
+		section.sec2.up
+			.flex
+				.boxText.left
+					p O sistema de proteção social brasileiro está integrado ao sistema internacional de direitos humanos, baseado em princípios como universalidade, integralidade e governança deliberativa. A educação e a assistência social são políticas fundamentais que concretizam os direitos sociais previstos na Constituição Federal de 1988, devendo ser oferecidas com qualidade e respeitando as diversidades locais.
+				+image('img02.png', 'img right')
+
+		section.sec3
+			h2.up Educação em Direitos Humanos
+			p.up.text Em 2003, a Secretaria Especial de Direitos Humanos criou o Comitê Nacional de Educação em Direitos Humanos (CNEDH) para desenvolver o Plano Nacional (PNEDH), abrangendo diferentes níveis e modalidades de ensino. As Diretrizes Nacionais para a Educação em Direitos Humanos (DNEDH), instituídas em 2012, são essenciais para a implementação do tema na cultura escolar (Brasil, 2012).
+			.container-accordeon.up
+				.corpbtn.up
+					button.accordeon-title
+						.boxImg
+							+image('arrowaccordeon.svg', 'ico')
+						p Dignidade e Consciência 
+					.accordeon-texto
+						p A Educação em Direitos Humanos busca garantir a dignidade humana e promover a consciência sobre esses direitos, utilizando práticas interdisciplinares que integram Educação e Assistência Social. Essa abordagem visa sensibilizar a população sobre a importância da dignidade e do respeito à diversidade, prevenindo violações éticas e promovendo soluções justas e inclusivas.
+				.corpbtn.up
+					button.accordeon-title
+						.boxImg
+							+image('arrowaccordeon.svg', 'ico')
+						p Universalização
+					.accordeon-texto
+						p A universalização do conhecimento, presente em diversos contextos, promove a intersetorialidade entre Educação e Assistência Social para a transformação social. A formação de profissionais é crucial para atender às demandas sociais e garantir oportunidades educacionais.
+				.corpbtn.up
+					button.accordeon-title
+						.boxImg
+							+image('arrowaccordeon.svg', 'ico')
+						p Integralidade e intersetorialidade
+					.accordeon-texto
+						p A integralidade na proteção dos direitos humanos e a intersetorialidade entre Educação e Assistência Social visam melhorar a qualidade do ensino. Para isso, é necessário um enfoque colaborativo e multidimensional na formação de profissionais.
+		
+		section.sec4
+			.box.up
+				p Etapas para Implementação da Abordagem Integral
+			.boxFlex.up
+				.num
+					h2 01
+				.text
+					p Compreensão do sujeito como um ser integral, considerando aspectos emocionais e sociais.
+			.boxFlex.up
+				.num
+					h2 02
+				.text
+					p Construção de práticas de convivência baseadas em diálogo e solidariedade.
+			.boxFlex.up
+				.num
+					h2 03
+				.text
+					p Criação de espaços que possibilitem entender a realidade e conectar saberes.
+			.boxFlex.up
+				.num
+					h2 04
+				.text
+					p Desenvolvimento de práticas que reflitam a história e o contexto sociocultural dos estudantes.
+			.boxFlex.up
+				.num
+					h2 05
+				.text
+					p Esse processo visa transformar a educação por meio de práticas colaborativas e reflexivas, reconhecendo as experiências individuais e coletivas.
+
+		section.sec5
+			.flex
+				+image('img03.png', 'img left')
+				.boxText.right
+					h1 Autoformação e Responsabilidade Social
+					p A autoformação é um processo de autonomia que se constrói pela consciência reflexiva. Refletir sobre a prática intersetorial exige uma análise que promova a consciência sobre a experiência pessoal e a organização cooperativa para a produção de saberes.
+
+		section.sec6.completeScorm.up
+			p.up Veja mais detalhes na interação abaixo:
+			.flex.up
+				+aba([
+					{
+						nameAba: '01',
+						html: `
+						<p class="pTitle">Trabalho Cooperativo na Educação em Direitos Humanos</p>
+						<p>Para construir uma rede reflexiva e coerente, é necessário:</p>
+						<ul>
+							<li>
+								<p>Colocar as pessoas no centro da ação pedagógica.</p>
+							</li>
+							<li>
+								<p>Diversificar os percursos de formação e as estratégias de ensino.</p>
+							</li>
+							<li>
+								<p>Contextualizar as avaliações e desenvolver trabalho por projetos.</p>
+							</li>
+							<li>
+								<p>Promover práticas de imersão e criação de situações-problema.</p>
+							</li>
+							<li>
+								<p>Estabelecer discussões éticas e garantir a participação democrática.</p>
+							</li>
+						</ul>
+						`,
+						img: ''
+					},
+					{
+						nameAba: '02',
+						html: `
+						<p class="pTitle">Produção do Conhecimento para a Educação em Direitos</p>
+						<p>É essencial desenvolver habilidades para buscar e processar conhecimento, fomentando o pensamento crítico. Algumas metodologias sugeridas incluem:</p>
+						<ul>
+							<li>
+								<p>Conhecer as práticas culturais dos estudantes e mapear o território.</p>
+							</li>
+							<li>
+								<p>Compreender o papel do estudante na sociedade.</p>
+							</li>
+							<li>
+								<p>Realizar trabalho multissetorial, identificando necessidades locais.</p>
+							</li>
+							<li>
+								<p>Desenvolver projetos de intervenção com problematização.</p>
+							</li>
+						</ul>
+						`,
+						img: ''
+					},
+					{
+						nameAba: '03',
+						html: `
+						<p class="pTitle">Metodologias Ativas na Educação em Direitos Humanos</p>
+						<p>As metodologias ativas estimulam a investigação e a construção de conhecimentos a partir de problematizações da realidade. Referências para essas metodologias incluem:</p>
+						<ol>
+							<li>
+								<p><b>Metodologias ativas: uma nova experiência de aprendizagem</b> - Cristine Soares (2021).</p>
+							</li>
+							<li>
+								<p><b>Metodologias Ativas para uma Educação Inovadora</b> - Lilian Bacich e José Moran (2017).</p>
+							</li>
+							<li>
+								<p><b>Sala de Aula Invertida</b> - Bergmann e Sams (2016).</p>
+							</li>
+							<li>
+								<p><b>Interdisciplinaridade e as Metodologias Ativas</b> - Monique Perini et al. (2023).</p>
+							</li>
+							<li>
+								<p><b>O uso da Metodologia Ativa na Construção do Conhecimento</b> - Joabson Cruz Soares (2020).</p>
+							</li>
+							<li>
+								<p><b>Metodologias ativas, gamificação com quizz</b> - José Luiz Teixeira da Silva (2023).</p>
+							</li>
+						</ol>
+						`,
+						img: ''
+					},
+				])
+
+		section.sec7.up
+			.box.up
+				p Essas metodologias visam transformar a prática pedagógica, colocando os estudantes como protagonistas de sua própria aprendizagem.
+
+		footer.up
+			+image('logo-footer.png', 'imgFooter')
+
+block scripts
+	script(src="script.js")
